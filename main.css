@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "stem";
+  src: url("/assets/font/Stem-Regular.woff");
+}
+
+a {
+  color: #939598;
+  text-decoration: none;
+}
+
+body {
+  font-family: "stem";
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #241e20;
+  text-align: center;
+  height: 100vh;
+}
+
+.heading {
+  margin: 0 0 10px 0;
+}
+
+.para {
+  line-height: 38px;
+}
+
+.heading span {
+  border-bottom: #ffffff 1px solid;
+}
+
+.logo {
+  padding: 2rem 0 3rem 0;
+}
+
+.develop {
+  font-size: 14px;
+  color: #939598;
+}
+
+.contact-us a,
+.address a,
+.develop a {
+  color: #ffffff;
+}
+
+.contact-us,
+.address,
+.develop {
+  padding: 1.5rem 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .para {
+    line-height: 30px;
+  }
+}
